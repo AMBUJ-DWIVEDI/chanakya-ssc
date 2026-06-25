@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>INDIWAR's Tribe — Commons mockup</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+body{
+  margin:0;min-height:100vh;display:flex;justify-content:center;align-items:flex-start;padding:48px 20px;
+  font-family:'Inter',sans-serif;color:#f7f4ec;
+  background-color:#0a0c12;
+  background-image:
+    radial-gradient(circle at 50% 0%, rgba(176,122,92,0.10), transparent 42%),
+    radial-gradient(circle at 12% 30%, rgba(94,131,179,0.10), transparent 32%),
+    linear-gradient(180deg, #0a0c12 0%, #0e1320 100%);
+}
+.wrap{width:100%;max-width:640px}
+.serif{font-family:'Cormorant Garamond',serif}
+.mono{font-family:'JetBrains Mono',monospace}
+.pill{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.06em;padding:3px 9px;border-radius:999px}
+.tab{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#7a8496;padding-bottom:9px}
+.card{
+  border:1px solid rgba(247,244,236,0.08);
+  background:linear-gradient(180deg, rgba(255,255,255,0.045), rgba(255,255,255,0.018));
+  box-shadow:0 24px 90px rgba(0,0,0,0.38);
+  backdrop-filter:blur(18px);
+  border-radius:28px;
+}
+.reaction{
+  font-family:'Inter',sans-serif;font-size:12px;color:#7a8496;
+  border:1px solid rgba(247,244,236,0.1);border-radius:999px;padding:5px 12px;
+  display:inline-flex;align-items:center;gap:5px;
+}
+.reaction.active{border-color:rgba(62,122,107,0.6);background:rgba(62,122,107,0.1);color:#f7f4ec}
+</style>
+</head>
+<body>
+<main class="wrap">
+
+  <!-- Entry ribbon — the Tribe Code, not a feature -->
+  <div style="text-align:center;margin-bottom:22px">
+    <span class="mono" style="font-size:10px;letter-spacing:.18em;color:#7a8496">WITNESS BEFORE ADVICE · NO PERFORMATIVE PAIN · I ENTER CAREFULLY</span>
+  </div>
+
+  <!-- Hero -->
+  <div style="text-align:center;margin-bottom:26px">
+    <div class="serif" style="font-size:26px;font-weight:600;color:#f7f4ec;margin-bottom:6px">INDIWAR's Tribe</div>
+    <div class="mono" style="font-size:11px;letter-spacing:.12em;color:#b07a5c;text-transform:uppercase;margin-bottom:10px">No followers. Only Tribe.</div>
+    <div style="font-size:14px;color:#9aa1ac;max-width:440px;margin:0 auto;line-height:1.6">
+      A social commons for people building intentional, aware, anchored lives. Share writeups, images, and reflections — not for vanity, but for witness.
+    </div>
+  </div>
+
+  <!-- Feed tabs -->
+  <div style="display:flex;justify-content:center;gap:28px;border-bottom:1px solid #232c3d;margin-bottom:20px;padding-bottom:2px">
+    <span class="tab" style="color:#c79a7c;border-bottom:2px solid #b07a5c">COMMONS</span>
+    <span class="tab">MY TRIBE</span>
+    <span class="tab">SIGNAL</span>
+  </div>
+
+  <!-- Post 1 -->
+  <div class="card" style="padding:20px;margin-bottom:14px">
+    <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:10px">
+      <div>
+        <div style="font-size:14px;color:#f7f4ec">A Tribe member</div>
+        <div class="mono" style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:#7a8496;margin-top:3px">WRITEUP · TO PROCESS SOMETHING</div>
+      </div>
+      <button style="font-family:'JetBrains Mono',monospace;font-size:11px;color:#7a8496;border:1px solid rgba(247,244,236,0.1);border-radius:999px;padding:6px 12px;background:transparent" title="Private — only you see this.">Prefer their signal</button>
+    </div>
+
+    <div class="serif" style="font-size:18px;color:#f7f4ec;margin-top:16px">Three weeks of silence, and what it actually taught me</div>
+    <div style="font-size:14px;color:#9aa1ac;line-height:1.7;margin-top:8px">
+      I stopped checking the score for a while. Not because I gave up — because I needed to know if the work still made sense without anyone watching it. It did.
+    </div>
+
+    <div style="margin-top:18px">
+      <div style="display:flex;flex-wrap:wrap;gap:6px">
+        <span class="reaction active">Witnessed <span style="color:#7a8496">9</span></span>
+        <span class="reaction active">Rooted <span style="color:#7a8496">4</span></span>
+        <span class="reaction">Felt</span>
+        <span class="reaction">Stay With It</span>
+      </div>
+      <div style="font-size:11px;color:#7a8496;margin-top:8px">9 people witnessed this</div>
+    </div>
+
+    <a href="#" style="display:inline-block;margin-top:14px;font-size:12px;color:#7a8496;text-decoration:none">3 reflections</a>
+  </div>
+
+  <!-- Post 2 -->
+  <div class="card" style="padding:20px;margin-bottom:14px">
+    <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:10px">
+      <div>
+        <div style="font-size:14px;color:#f7f4ec">A Tribe member</div>
+        <div class="mono" style="font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:#7a8496;margin-top:3px">IMAGE · TO DOCUMENT BEAUTY</div>
+      </div>
+    </div>
+    <div style="margin-top:14px;border-radius:18px;overflow:hidden;border:1px solid rgba(247,244,236,0.08);height:160px;background:linear-gradient(135deg,#1a2435,#0e1320);display:flex;align-items:center;justify-content:center">
+      <span class="mono" style="font-size:10px;letter-spacing:.1em;color:#4d4a45">IMAGE</span>
+    </div>
+    <div style="margin-top:14px;display:flex;flex-wrap:wrap;gap:6px">
+      <span class="reaction">Beautiful</span>
+      <span class="reaction active">Witnessed <span style="color:#7a8496">2</span></span>
+    </div>
+    <a href="#" style="display:inline-block;margin-top:12px;font-size:12px;color:#7a8496;text-decoration:none">Be the first to reflect</a>
+  </div>
+
+  <!-- Quiet-commons nudge (empty-state tone, shown as a footer note rather than blank state here) -->
+  <div style="text-align:center;margin-top:24px">
+    <div class="mono" style="font-size:10px;letter-spacing:.1em;color:#4d4a45">SHARE THE FIRST SIGNAL, NOT THE LOUDEST THOUGHT</div>
+  </div>
+
+</main>
+</body>
+</html>
