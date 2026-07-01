@@ -1,0 +1,34 @@
+# Nested app repos — each has its own remote
+haven/
+bastion-os/
+chanakyassc-app/
+kautilya ias/
+
+# Source zips
+*.zip
+
+# Secrets
+.env
+.env.local
+.env*.local
+
+# Build artifacts & caches
+node_modules/
+.next/
+.nuxt/
+dist/
+.cache/
+*.tsbuildinfo
+
+# IDE / tooling state
+.claude/
+.cursor/
+.netlify/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*

@@ -1,0 +1,12 @@
+{
+  "name": "chanakya-workspace",
+  "private": true,
+  "scripts": {
+    "dev": "npm run dev --prefix bastion-os",
+    "dev:bastion": "npm run dev --prefix bastion-os",
+    "dev:haven": "npm run dev --prefix haven",
+    "dev:ssc": "npm run dev --prefix chanakyassc-app",
+    "dev:upsc": "npm run dev --prefix \"kautilya ias\"",
+    "install:bastion": "npm install --prefix bastion-os"
+  }
+}
