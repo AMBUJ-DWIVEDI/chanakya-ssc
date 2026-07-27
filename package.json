@@ -7,6 +7,7 @@
     "dev:haven": "npm run dev --prefix haven",
     "dev:ssc": "npm run dev --prefix chanakyassc-app",
     "dev:upsc": "npm run dev --prefix \"kautilya ias\"",
+    "dev:citadel": "npm run dev --prefix \"../CITADEL\"",
     "install:bastion": "npm install --prefix bastion-os"
   }
 }
